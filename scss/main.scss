@@ -1,0 +1,8 @@
+$primaryColor : #cd623f;
+$secondaryColor : #cda93f;
+$tertiaryColor : #cd853f;
+
+body, .nav-wrapper{ background-color: $primaryColor;}
+#shopNowBtn{ background-color: $secondaryColor;}
+
+.btn{margin-block-start: 15px;}

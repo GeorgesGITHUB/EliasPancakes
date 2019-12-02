@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body, .nav-wrapper {
+  background-color: #cd623f;
+}
+
+#shopNowBtn {
+  background-color: #cda93f;
+}
+
+.btn {
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
+}
+/*# sourceMappingURL=main.css.map */
