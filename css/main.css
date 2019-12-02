@@ -1,4 +1,4 @@
-body, .nav-wrapper {
+body, #navbarHorizontal {
   background-color: #cd623f;
 }
 
@@ -6,7 +6,19 @@ body, .nav-wrapper {
   background-color: #cda93f;
 }
 
-.btn {
+.nav-wrapper > .sidenav a {
+  padding: 0px 0px 0px 0px;
+}
+
+.nav-wrapper > .sidenav li {
+  text-align: center;
+}
+
+.nav-wrapper > .sidenav .divider {
+  margin: 8px 0px 8px 0px;
+}
+
+#shopNowBtn {
   -webkit-margin-before: 15px;
           margin-block-start: 15px;
 }
