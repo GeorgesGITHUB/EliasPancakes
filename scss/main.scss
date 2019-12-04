@@ -2,12 +2,27 @@ $primaryColor : #cd623f;
 $secondaryColor : #cda93f;
 $tertiaryColor : #cd853f;
 
-body, #navbarHorizontal{ background-color: $primaryColor;}
-#shopNowBtn{ background-color: $secondaryColor;}
+//Colours
+header, nav > .nav-wrapper{ background-color: $primaryColor;}
+header > .row > .btn{ background-color: $secondaryColor;}
+#nutrition { background-color: bisque;}
 
+//Resizing
 .nav-wrapper > .sidenav{
     a{padding: 0px 0px 0px 0px;}
     li{ text-align: center;}
     .divider{ margin: 8px 0px 8px 0px;}
 }
-#shopNowBtn{margin-block-start: 15px;}
+header > .row > .btn{margin: 15px 0px 15px 0px;}
+#products > .collapsible{
+    margin: 45px 0px 5px 0px;
+
+    .collapsible-header{
+        padding: 0px;
+        
+        .s12{
+            padding: 0px;
+        }
+        .row, .card{margin: 0px;}
+    }
+}

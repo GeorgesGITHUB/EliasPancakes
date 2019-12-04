@@ -1,9 +1,13 @@
-body, #navbarHorizontal {
+header, nav > .nav-wrapper {
   background-color: #cd623f;
 }
 
-#shopNowBtn {
+header > .row > .btn {
   background-color: #cda93f;
+}
+
+#nutrition {
+  background-color: bisque;
 }
 
 .nav-wrapper > .sidenav a {
@@ -18,8 +22,23 @@ body, #navbarHorizontal {
   margin: 8px 0px 8px 0px;
 }
 
-#shopNowBtn {
-  -webkit-margin-before: 15px;
-          margin-block-start: 15px;
+header > .row > .btn {
+  margin: 15px 0px 15px 0px;
+}
+
+#products > .collapsible {
+  margin: 45px 0px 5px 0px;
+}
+
+#products > .collapsible .collapsible-header {
+  padding: 0px;
+}
+
+#products > .collapsible .collapsible-header .s12 {
+  padding: 0px;
+}
+
+#products > .collapsible .collapsible-header .row, #products > .collapsible .collapsible-header .card {
+  margin: 0px;
 }
 /*# sourceMappingURL=main.css.map */
